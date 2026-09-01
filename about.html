@@ -12,7 +12,8 @@
 <meta property="og:image" content="images/og.png">
 <meta property="og:locale" content="ko_KR">
 <meta name="theme-color" content="#1C95B7">
-<link rel="icon" href="images/favicon.png">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="images/favicon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css">
@@ -22,8 +23,7 @@
 <header class="hd">
   <div class="wrap hd__top">
     <a class="logo" href="index.html">
-      <img src="images/logo_kcsa_mark.png" width="240" height="239" alt="">
-      <span class="wm"><b>한국화학안전협회</b><i>Korea Chemical Safety Association</i></span>
+      <img class="sig" src="images/logo.svg" width="404" height="92" alt="한국화학안전협회">
     </a>
     <div class="hd__right">
       <a class="hd__tel" href="tel:1644-9049"><b>1644-9049</b><span>평일 09:00 ~ 18:00</span></a>
@@ -35,8 +35,8 @@
   <nav class="drawer" id="drawer" aria-label="모바일 메뉴"><a href="index.html">홈</a><a href="about.html" aria-current="page">협회 소개</a><a href="business.html">주요 사업</a><a href="education.html">안전교육</a><a href="ai-center.html">AI 교육센터</a><a href="member.html">회원 안내</a><a href="contact.html">오시는 길</a></nav>
 </header>
 <main>
-  <section class="phero">
-    <img class="phero__mark" src="images/logo_kcsa_mark_w.png" alt="" aria-hidden="true">
+  <section class="phero netfx">
+    <img class="phero__mark" src="images/mark-white.svg" alt="" aria-hidden="true">
     <div class="wrap">
       <p class="bc">협회소개</p>
       <h1>화학 안전교육과 사고예방에<br>만전을 기하겠습니다</h1>
@@ -47,7 +47,7 @@
   <section class="sec" id="greeting">
     <div class="wrap">
       <div class="sec__head">
-        <p class="kicker"><img src="images/logo_kcsa_mark.png" alt="">회장 인사말</p>
+        <p class="kicker"><img src="images/mark.svg" alt="">회장 인사말</p>
         <h2>화학 사업장 안전의<br>중요성을 생각합니다</h2>
       </div>
       <div class="prose measure">
@@ -64,7 +64,7 @@
   <section class="sec sec--soft" id="purpose">
     <div class="wrap">
       <div class="sec__head">
-        <p class="kicker"><img src="images/logo_kcsa_mark.png" alt="">설립목적</p>
+        <p class="kicker"><img src="images/mark.svg" alt="">설립목적</p>
         <h2>무엇을 위해<br>설립되었는가</h2>
       </div>
       <div class="callout">
@@ -76,7 +76,7 @@
   <section class="sec" id="history">
     <div class="wrap">
       <div class="sec__head">
-        <p class="kicker"><img src="images/logo_kcsa_mark.png" alt="">연혁 · 지정 현황</p>
+        <p class="kicker"><img src="images/mark.svg" alt="">연혁 · 지정 현황</p>
         <h2>정부가 지정한<br>화학안전 교육기관</h2>
         <p class="sec__sub measure">환경부와 노동부로부터 받은 지정·허가 이력입니다.</p>
       </div>
@@ -93,7 +93,7 @@
   <section class="sec sec--tint" id="info">
     <div class="wrap">
       <div class="sec__head">
-        <p class="kicker"><img src="images/logo_kcsa_mark.png" alt="">협회 정보</p>
+        <p class="kicker"><img src="images/mark.svg" alt="">협회 정보</p>
         <h2>기본 정보</h2>
       </div>
       <ul class="dl" style="margin-top:0">
@@ -106,19 +106,30 @@
         <li><span class="k">대표전화</span><span class="v"><a href="tel:1644-9049">1644-9049</a> (代) · <a href="tel:031-410-2991">031-410-2991~2</a></span></li>
         <li><span class="k">팩스</span><span class="v">031-410-2994</span></li>
       </ul>
-      <div class="btnrow"><a class="btn btn--line" href="contact.html">오시는 길 보기</a></div>
+      <div class="btnrow">
+        <a class="btn btn--line" href="contact.html">오시는 길 보기</a>
+        <a class="btn btn--line" href="https://www.chemsafe.or.kr/about/greeting.html" target="_blank" rel="noopener">협회 공식 홈페이지</a>
+      </div>
+      <ul class="srclist">
+        <li><a href="https://www.chemsafe.or.kr/about/greeting.html" target="_blank" rel="noopener">회장인사말</a></li>
+        <li><a href="https://www.chemsafe.or.kr/about/history.html" target="_blank" rel="noopener">연혁</a></li>
+        <li><a href="https://www.chemsafe.or.kr/about/ci.html" target="_blank" rel="noopener">C.I 소개</a></li>
+        <li><a href="https://www.chemsafe.or.kr/about/organ.html" target="_blank" rel="noopener">조직도</a></li>
+        <li><a href="https://www.chemsafe.or.kr/about/certificate.html" target="_blank" rel="noopener">인증현황</a></li>
+      </ul>
+      <p class="note">위 항목은 협회 공식 홈페이지에서 확인하실 수 있습니다.</p>
     </div>
   </section>
 </main>
 
 <footer class="ft">
-  <img class="ft__mark" src="images/logo_kcsa_mark_w.png" alt="" aria-hidden="true">
+  <img class="ft__mark" src="images/mark-white.svg" alt="" aria-hidden="true">
   <div class="wrap ft__in">
-    <div class="ft__logo"><img src="images/logo_kcsa_mark_bright.png" width="240" height="239" alt=""><span class="wm"><b>한국화학안전협회</b><i>Korea Chemical Safety Association</i></span></div>
+    <img class="ft__logo" src="images/logo-light.svg" width="404" height="92" alt="한국화학안전협회">
     <span>상호명 : 한국화학안전협회 &nbsp;|&nbsp; 사업자등록번호 : 119-82-82374 &nbsp;|&nbsp; 대표자명 : 지의상</span>
     <span>주소 : 경기도 안산시 단원구 고잔1길 76 리치프라자 401~2호 &nbsp;|&nbsp; Tel : 1644-9049(代) &nbsp;|&nbsp; 031-410-2991~2 &nbsp;|&nbsp; Fax : 031-410-2994</span>
     <span>교육장 : 경기도 안산시 단원구 동산로 63, 3층 &nbsp;|&nbsp; 교육 문의 : 031-410-2992 &nbsp;|&nbsp; chem.edu@chemsafe.or.kr</span>
-    <p class="ft__nav"><a href="about.html">협회 소개</a> &nbsp;·&nbsp; <a href="contact.html">찾아오시는 길</a> &nbsp;·&nbsp; <a href="https://www.chemsafe.or.kr/prcenter/notice.html" target="_blank" rel="noopener">공지사항</a> &nbsp;·&nbsp; <a href="https://www.chemsafe.or.kr/prcenter/qna.html" target="_blank" rel="noopener">온라인 문의</a> &nbsp;·&nbsp; <a href="https://edu.chemsafe.or.kr/" target="_blank" rel="noopener">교육시스템</a></p>
+    <p class="ft__nav"><a href="https://www.chemsafe.or.kr/" target="_blank" rel="noopener">협회 공식 홈페이지</a> &nbsp;·&nbsp; <a href="about.html">협회 소개</a> &nbsp;·&nbsp; <a href="contact.html">찾아오시는 길</a> &nbsp;·&nbsp; <a href="https://www.chemsafe.or.kr/prcenter/notice.html" target="_blank" rel="noopener">공지사항</a> &nbsp;·&nbsp; <a href="https://www.chemsafe.or.kr/prcenter/qna.html" target="_blank" rel="noopener">온라인 문의</a> &nbsp;·&nbsp; <a href="https://edu.chemsafe.or.kr/" target="_blank" rel="noopener">교육시스템</a></p>
     <p class="copy">COPYRIGHT ⓒ 사단법인한국화학안전협회. ALL RIGHTS RESERVED</p>
     <p class="disc">본 페이지는 공식 홈페이지의 공개 정보를 바탕으로 제작한 소개 페이지 시안입니다.</p>
   </div>
