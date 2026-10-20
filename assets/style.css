@@ -254,7 +254,7 @@ td b{font-weight:700}
 .p-ai-center .notice li::before{background:var(--mint-ink)}
 
 /* 아코디언 */
-.acc{background:#fff;border:1px solid var(--line);border-radius:8px;margin-bottom:12px}
+.acc{scroll-margin-top:130px;background:#fff;border:1px solid var(--line);border-radius:8px;margin-bottom:12px}
 .acc>summary{list-style:none;cursor:pointer;padding:20px 48px 20px 20px;position:relative}
 .acc>summary::-webkit-details-marker{display:none}
 .acc .tag{display:inline-block;font-size:12px;font-weight:800;color:var(--brand-deep);border:1px solid var(--brand-mid);padding:2px 10px;border-radius:20px;margin-bottom:9px}

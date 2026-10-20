@@ -24,7 +24,7 @@
           + '.news a, .desig li, .free, .stats div, .callout, .badges div, .gate, .btnrow, .prose, .dl, .bul, .tblwrap';
     var els=[].slice.call(document.querySelectorAll(SEL));
     // 첫 화면(히어로/KV) 안쪽 요소는 즉시 노출
-    els=els.filter(function(el){ return !el.closest('.kv, .hero, details'); });
+    els=els.filter(function(el){ return !el.closest('.kv, .mkv, .story, .hero, details'); });
     els.forEach(function(el){ el.setAttribute('data-rv',''); });
     var io=new IntersectionObserver(function(entries){
       entries.forEach(function(e){
@@ -49,4 +49,12 @@
       });
     });
   }
+
+  /* 주소 해시로 아코디언 열기 (예: business.html#biz-psm) */
+  var openHash=function(){
+    if(!location.hash) return;
+    var t=document.getElementById(location.hash.slice(1));
+    if(t && t.tagName==='DETAILS'){ t.open=true; setTimeout(function(){ t.scrollIntoView({block:'start'}); },60); }
+  };
+  openHash(); window.addEventListener('hashchange',openHash);
 })();
