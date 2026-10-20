@@ -1,5 +1,7 @@
 # 한국화학안전협회 소개 사이트
 
+[홈페이지 바로가기](https://chemsafe.ondoco.workers.dev/) · [주요 사업 바로가기](https://chemsafe.ondoco.workers.dev/business)
+
 빌드 도구 없이 그대로 배포되는 정적 멀티페이지 사이트입니다.
 
 ## 파일 구성
